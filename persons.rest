@@ -2,7 +2,11 @@ GET http://localhost:3001/api/persons
 
 ###
 
-GET http://localhost:3001/api/persons/1
+GET http://localhost:3001/info
+
+###
+
+GET http://localhost:3001/api/persons/62174565e05ab3e31d99484a
 
 ###
 
@@ -14,6 +18,16 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
+    "name": "William",
+    "number": "10-22-334455"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/6217892b80a45b5433dfb1b8
+Content-Type: application/json
+
+{
     "name": "Charlotte Moore",
-    "number": "0941 982 531"
+    "number": "0941-098-897"
 }
