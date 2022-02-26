@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "deploy": "git push heroku main",
-    "logs:prod": "heroku logs --tail"
+    "logs:prod": "heroku logs --tail",
+    "lint": "eslint ."
   },
   "keywords": [
     "backend",
@@ -27,6 +28,8 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.1",
     "nodemon": "^2.0.15"
   }
 }

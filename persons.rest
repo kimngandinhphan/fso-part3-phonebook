@@ -2,7 +2,7 @@ GET http://localhost:3001/api/persons
 
 ###
 
-GET http://localhost:3001/info
+GET http://localhost:3001/api/persons/info
 
 ###
 
@@ -10,7 +10,7 @@ GET http://localhost:3001/api/persons/62174565e05ab3e31d99484a
 
 ###
 
-DELETE http://localhost:3001/api/persons/2
+DELETE http://localhost:3001/api/persons/6219d8b2f96903ea3cdd1a98
 
 ###
 
@@ -19,15 +19,14 @@ Content-Type: application/json
 
 {
     "name": "William",
-    "number": "10-22-334455"
+    "number": "12345678"
 }
 
 ###
 
-PUT http://localhost:3001/api/persons/6217892b80a45b5433dfb1b8
+PUT http://localhost:3001/api/persons/6219f3c53eeea8d93cc19b46
 Content-Type: application/json
 
 {
-    "name": "Charlotte Moore",
-    "number": "0941-098-897"
+    "number": "094-098897"
 }
